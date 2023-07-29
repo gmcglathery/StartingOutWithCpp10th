@@ -5,7 +5,7 @@ Car::Car(int y, std::string m) : year(y), make(m), speed(0) {}
 
 void Car::getYear()
 {
-    std::cout << year << std::endl;
+    std::cout << year;
 }
 
 void Car::getMake()

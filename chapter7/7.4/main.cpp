@@ -4,6 +4,11 @@
 int main()
 {
     Car myCar(2023, "Chevy Silverado");
+
+    myCar.getYear();
+    std::cout << " ";
+    myCar.getMake();
+    std::cout << std::endl;   
     
     for(int i = 0; i < 5; i++)
     {
@@ -20,7 +25,6 @@ int main()
         myCar.getSpeed();
         std::cout << std::endl;
     }
-
 
     return 0;
 }

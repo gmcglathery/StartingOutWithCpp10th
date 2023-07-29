@@ -37,7 +37,7 @@ class Car {
         std::string make;
     public:
         Car(int, std::string);
-        ~Car();
+        ~Car(){};
         void getYear();
         void getMake();
         void getSpeed();
