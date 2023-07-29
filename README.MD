@@ -1,1 +1,1 @@
-We're just going through the exercises!
+My daughter and I just going through the exercises!
